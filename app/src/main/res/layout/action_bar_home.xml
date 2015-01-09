@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:enabled="false"
+    android:orientation="horizontal"
+    android:background="#f5f4f7"
+    android:paddingEnd="8dip"
+    android:paddingStart="8dip"
+     >
+
+        
+     <ImageView
+        android:id="@+id/ivSettings"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:src="@drawable/ic_action_settings"
+        />
+
+    <ImageView
+        android:id="@+id/ivChangeName"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toLeftOf="@id/ivSettings"
+        android:layout_centerVertical="true"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:src="@drawable/ic_action_edit"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#838B8B"
+        android:text="@string/logout"
+        android:textSize="15dp"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/tvOccupancy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#838B8B"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/tvLogout"
+        android:layout_marginLeft="15dp"
+        />
+            
+
+</RelativeLayout>

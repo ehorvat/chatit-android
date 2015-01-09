@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ego.activities.SettingsActivity"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/tvSettingsTitle"
+        android:text="@string/settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/blue01"
+       />
+
+    <TextView
+        android:id="@+id/tvChangePassword"
+        android:text="@string/settings_change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"
+        android:layout_below="@id/tvSettingsTitle"
+        android:textColor="@color/blue01"/>
+
+    <EditText
+        android:id="@+id/etOldPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvChangePassword"
+        android:layout_marginTop="15dp"
+        android:hint="@string/settings_old_hint"
+
+        />
+
+    <EditText
+        android:id="@+id/etNewPassword"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etOldPassword"
+        android:layout_marginTop="15dp"
+        android:hint="@string/settings_new_hint"
+        />
+
+    <Button
+        android:id="@+id/bChangePassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etNewPassword"
+        android:textColor="#FFFFFF"
+        android:text="@string/settings_button_change_password"
+        android:background="@drawable/pressed"
+        />
+
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bChangePassword"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

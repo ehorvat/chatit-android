@@ -1,0 +1,9 @@
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/classes/debug
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-3f9a364feb7fb1bba3b668cdc7bb46cf34d21883.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.5-3ca68342886ec953b034fb61f4087986475d3e94.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/Pubnub-Android-3.7.1-45acd92ebe8f729d52fd79f993656aa0057c549c.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-f9e0a876d91d9b25d9da8f7c5fd09c65a383d732.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/classes-45e2b3df38d5dd8f9ba31886e132dc8a557af4de.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/classes-6cafb520f806206c638df72990fe34ee76c30436.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/google-play-services-75d0b851f51ce0baf0d52b2abdaaa94f50aa5741.jar
+/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/bcprov-jdk15on-1.47-30130343a0d05409e0dcd7a041d7dca0fa414ae2.jar

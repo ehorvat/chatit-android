@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/libs/slf4j-api-1.7.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.5-3ca68342886ec953b034fb61f4087986475d3e94.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/libs/google-play-services.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3dfdf1db5ce5ea2999a5dcde8c8e650b02660059">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/google-play-services-75d0b851f51ce0baf0d52b2abdaaa94f50aa5741.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/libs/bcprov-jdk15on-1.47.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b6f5d9926b0afbde9f4dbe3db88c5247be7794bb">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/bcprov-jdk15on-1.47-30130343a0d05409e0dcd7a041d7dca0fa414ae2.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/classes-6cafb520f806206c638df72990fe34ee76c30436.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/classes-45e2b3df38d5dd8f9ba31886e132dc8a557af4de.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/libs/Pubnub-Android-3.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7075d71409a1afdde3080ec7394d3d9c433d67a8">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/Pubnub-Android-3.7.1-45acd92ebe8f729d52fd79f993656aa0057c549c.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-f9e0a876d91d9b25d9da8f7c5fd09c65a383d732.jar" />
+    </item>
+    <item
+        jar="/Users/erichorvat/Developer/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-3f9a364feb7fb1bba3b668cdc7bb46cf34d21883.jar" />
+    </item>
+
+</items>

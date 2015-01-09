@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="app_name">Chatit</string>
+    <string name="title">Chatit</string>
+    <string name="register_title">Make an Account</string>
+    <string name="author_name">By Ravi Tamada</string>
+    <string name="author_url">www.androidhive.info</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_recover">Send Recovery Email</string>
+    <string name="hint_pw">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_conf_pw">Confirm Password</string>
+    <string name="hint_message">What\'s on your mind?</string>
+    <string name="send">Send</string>
+    <string name="recover">Forgot Password? Click Here</string>
+    <string name="recover_title">Password Recovery</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings_back">Back</string>
+    <string name="settings_title">Account Settings</string>
+    <string name="settings_change_password">Change Password</string>
+    <string name="settings_old_hint">Old Password</string>
+    <string name="settings_new_hint">New Password</string>
+    <string name="settings_post_as">Post As...</string>
+    <string name="settings_button_change_password">Change Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="logout">Logout</string>
+
+</resources>

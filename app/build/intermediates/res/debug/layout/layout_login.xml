@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="40dp"
+        >
+
+
+        <ImageView
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@drawable/chat_bubbles"
+            />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title"
+            android:textColor="#1C86EE"
+            android:textSize="38dp" />
+    </LinearLayout>
+    
+
+ 
+    <LinearLayout
+        android:id="@+id/fields"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llTitle"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp" >
+ 
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hint_email" />
+        
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:hint="@string/hint_pw" />
+        
+        
+                
+        <Button
+            android:id="@+id/bLogin"
+
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/pressed"
+            android:shadowColor="#1C86EE"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2"  />
+        
+        <Button
+            android:id="@+id/bRegister"
+            android:text="Sign Up"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_marginTop="7dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/pressed"
+            android:shadowColor="#1C86EE"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="2"  />
+        
+    </LinearLayout>
+    
+   	<Switch
+        android:id="@+id/sRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/fields"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:text="Stay Logged In?" />
+   	
+   	    
+	<TextView
+        android:id="@+id/tvPassRecover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ 		android:layout_centerInParent="true"
+        android:layout_below="@id/sRememberMe"
+        android:layout_marginTop="20dp"
+        android:text="@string/recover"
+        android:textColor="#1C86EE"
+        android:clickable="true"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tvPassRecover"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red01"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout><!-- From: file:/Users/erichorvat/AndroidStudioProjects/ChatIt1/app/src/main/res/layout/layout_login.xml -->
